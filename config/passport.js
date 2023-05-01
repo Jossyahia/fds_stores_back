@@ -9,7 +9,8 @@ module.exports = function (passport) {
       {
         clientID: process.env.GOOGLE_CLIENT_ID,
         clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-        callbackURL: "https://fastfast.ng/auth/google/callback",
+        callbackURL:
+          "https://weak-pink-bandicoot-veil.cyclic.app/auth/google/callback",
       },
       async (accessToken, refreshToken, profile, done) => {
         const newUser = {
