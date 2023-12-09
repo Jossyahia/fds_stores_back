@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const app = express();
-app.use(cors());
+//app.use(cors());
 const mongoose = require("mongoose");
 const passport = require("passport");
 const session = require("express-session");
